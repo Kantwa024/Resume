@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333333;
+    width: 100%;
+}
+
+p {
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+  }
+
+.topnav_main{
+    width: 100%;
+    position:fixed;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    text-align: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    width: 988px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    background: white;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    color: #0395DE;
+  }
+  
+  .topnav a.active {
+    color: #0395DE;
+  }
+
+.top_class{
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+    margin-top: 0px;
+}
+
+.header {
+    text-align: center;
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+  }
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 2px;
+    background: white;
+    left: auto;
+    right: auto;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 2px;
+    background: #0395DE;
+    width: 0%;
+  }
+
+.main_class{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#first_name{
+    color: #5D5D5D;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+#second_name{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#address{
+    color: #999999;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0395DE;
+}
+
+a:active {
+    text-decoration: none;
+    color: #0395DE;
+}
+
+img{
+    vertical-align: middle;
+}
+
+#first_half{
+    font-weight: bolder;
+    color: #0395DE;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#second_half{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#second_half_exp{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#second_half_proj{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#second_half_edu{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#skill_name{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#par_skill{
+    margin-top: 6px;
+    padding: 0;
+}
+
+#skills_info{
+    font-weight: normal;
+    font-size: 18px;
+    color: #414141;
+}
+
+#second_half_exp:after{
+    content: " ";
+    border-bottom: 1.8px solid #5D5D5D;
+    display:table-cell;
+    width: 760px;
+  }
+
+#second_half_proj:after{
+    content: " ";
+    border-bottom: 1.8px solid #5D5D5D;
+    display:table-cell;
+    width: 675px;
+  }
+
+  #second_half_edu:after{
+    content: " ";
+    border-bottom: 1.8px solid #5D5D5D;
+    display:table-cell;
+    width: 780px;
+  }
+
+
+#second_half:after{
+    content: " ";
+    border-bottom: 1.8px solid #5D5D5D;
+    display:table-cell;
+    width: 860px;
+  }
+
+  #topic_name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  #topic_location
+  {
+    float: right;
+    color: #0395DE;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  #topic_position
+  {
+    font-weight: 600;
+    font-size: 14px;
+    color: #5D5D5D;
+  }
+
+  #topic_date
+  {
+    font-weight: normal;
+    font-size: 14px;
+    color: #5D5D5D;
+    float: right;
+  }
+
+  ul {
+    font-weight: normal;
+    font-size: 17px;
+    color: #414141;
+    float: left;
+    margin: 0; 
+    padding: 0;
+    margin-top: 5px;
+    padding-left: 16px;
+  }
